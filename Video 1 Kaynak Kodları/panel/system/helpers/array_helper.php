@@ -1,4 +1,4 @@
-<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 /**
  * CodeIgniter
  *
@@ -40,12 +40,10 @@
  * @param	mixed
  * @return	mixed	depends on what the array contains
  */
-if ( ! function_exists('element'))
-{
+if (!function_exists('element')) {
 	function element($item, $array, $default = FALSE)
 	{
-		if ( ! isset($array[$item]) OR $array[$item] == "")
-		{
+		if (!isset($array[$item]) or $array[$item] == "") {
 			return $default;
 		}
 
@@ -62,12 +60,10 @@ if ( ! function_exists('element'))
  * @param	array
  * @return	mixed	depends on what the array contains
  */
-if ( ! function_exists('random_element'))
-{
+if (!function_exists('random_element')) {
 	function random_element($array)
 	{
-		if ( ! is_array($array))
-		{
+		if (!is_array($array)) {
 			return $array;
 		}
 
@@ -89,25 +85,19 @@ if ( ! function_exists('random_element'))
  * @param	mixed
  * @return	mixed	depends on what the array contains
  */
-if ( ! function_exists('elements'))
-{
+if (!function_exists('elements')) {
 	function elements($items, $array, $default = FALSE)
 	{
 		$return = array();
-		
-		if ( ! is_array($items))
-		{
+
+		if (!is_array($items)) {
 			$items = array($items);
 		}
-		
-		foreach ($items as $item)
-		{
-			if (isset($array[$item]))
-			{
+
+		foreach ($items as $item) {
+			if (isset($array[$item])) {
 				$return[$item] = $array[$item];
-			}
-			else
-			{
+			} else {
 				$return[$item] = $default;
 			}
 		}
