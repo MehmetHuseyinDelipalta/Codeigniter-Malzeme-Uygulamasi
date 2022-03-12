@@ -10,12 +10,11 @@
             <!--END SIDEBAR TOGGLE-->
             <!-- BEGIN LOGO -->
             <a class="brand" href="index.html">
-                <img src="<?php echo base_url("assets"); ?>/img/logo.png" alt="Metro Lab"/>
+                <img src="<?php echo base_url("assets"); ?>/img/logo.png" alt="Metro Lab" />
             </a>
             <!-- END LOGO -->
             <!-- BEGIN RESPONSIVE MENU TOGGLER -->
-            <a class="btn btn-navbar collapsed" id="main_menu_trigger" data-toggle="collapse"
-               data-target=".nav-collapse">
+            <a class="btn btn-navbar collapsed" id="main_menu_trigger" data-toggle="collapse" data-target=".nav-collapse">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -108,54 +107,50 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <span class="photo"><img src="<?php echo base_url("assets"); ?>/img/avatar-mini.png"
-                                                             alt="avatar"/></span>
+                                    <span class="photo"><img src="<?php echo base_url("assets"); ?>/img/avatar-mini.png" alt="avatar" /></span>
                                     <span class="subject">
-									<span class="from">Jonathan Smith</span>
-									<span class="time">Just now</span>
-									</span>
+                                        <span class="from">Jonathan Smith</span>
+                                        <span class="time">Just now</span>
+                                    </span>
                                     <span class="message">
-									    Hello, this is an example msg.
-									</span>
+                                        Hello, this is an example msg.
+                                    </span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <span class="photo"><img src="<?php echo base_url("assets"); ?>/img/avatar-mini.png"
-                                                             alt="avatar"/></span>
+                                    <span class="photo"><img src="<?php echo base_url("assets"); ?>/img/avatar-mini.png" alt="avatar" /></span>
                                     <span class="subject">
-									<span class="from">Jhon Doe</span>
-									<span class="time">10 mins</span>
-									</span>
+                                        <span class="from">Jhon Doe</span>
+                                        <span class="time">10 mins</span>
+                                    </span>
                                     <span class="message">
-									 Hi, Jhon Doe Bhai how are you ?
-									</span>
+                                        Hi, Jhon Doe Bhai how are you ?
+                                    </span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <span class="photo"><img src="<?php echo base_url("assets"); ?>/img/avatar-mini.png"
-                                                             alt="avatar"/></span>
+                                    <span class="photo"><img src="<?php echo base_url("assets"); ?>/img/avatar-mini.png" alt="avatar" /></span>
                                     <span class="subject">
-									<span class="from">Jason Stathum</span>
-									<span class="time">3 hrs</span>
-									</span>
+                                        <span class="from">Jason Stathum</span>
+                                        <span class="time">3 hrs</span>
+                                    </span>
                                     <span class="message">
-									    This is awesome dashboard.
-									</span>
+                                        This is awesome dashboard.
+                                    </span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <span class="photo"><img src="<?php echo base_url("assets"); ?>/img/avatar-mini.png"
-                                                             alt="avatar"/></span>
+                                    <span class="photo"><img src="<?php echo base_url("assets"); ?>/img/avatar-mini.png" alt="avatar" /></span>
                                     <span class="subject">
-									<span class="from">Jondi Rose</span>
-									<span class="time">Just now</span>
-									</span>
+                                        <span class="from">Jondi Rose</span>
+                                        <span class="time">Just now</span>
+                                    </span>
                                     <span class="message">
-									    Hello, this is metrolab
-									</span>
+                                        Hello, this is metrolab
+                                    </span>
                                 </a>
                             </li>
                             <li>
@@ -167,7 +162,6 @@
                     <!-- BEGIN NOTIFICATION DROPDOWN -->
                     <li class="dropdown" id="header_notification_bar">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-
                             <i class="icon-bell-alt"></i>
                             <span class="badge badge-warning">7</span>
                         </a>
@@ -224,15 +218,12 @@
                 <ul class="nav pull-right top-menu">
                     <!-- BEGIN SUPPORT -->
                     <li class="dropdown mtop5">
-
-                        <a class="dropdown-toggle element" data-placement="bottom" data-toggle="tooltip" href="#"
-                           data-original-title="Chat">
+                        <a class="dropdown-toggle element" data-placement="bottom" data-toggle="tooltip" href="#" data-original-title="Chat">
                             <i class="icon-comments-alt"></i>
                         </a>
                     </li>
                     <li class="dropdown mtop5">
-                        <a class="dropdown-toggle element" data-placement="bottom" data-toggle="tooltip" href="#"
-                           data-original-title="Help">
+                        <a class="dropdown-toggle element" data-placement="bottom" data-toggle="tooltip" href="#" data-original-title="Help">
                             <i class="icon-headphones"></i>
                         </a>
                     </li>

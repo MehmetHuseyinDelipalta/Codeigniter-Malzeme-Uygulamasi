@@ -17,4 +17,3 @@
 
 <!-- notifIt Scriptini çektiği yer -->
 <script src="<?php echo base_url("assets"); ?>/js//third_party/notifIt.js"></script>
-

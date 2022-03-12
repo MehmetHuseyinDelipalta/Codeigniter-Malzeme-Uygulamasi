@@ -3,8 +3,6 @@
     <?php echo date("Y"); ?> &copy; Mehmet Hüseyin Delipalta Dashboard.
 </div>
 <!-- END FOOTER -->
-
-
 <?php
 $this->load->view("includes/include_script");
 
@@ -16,16 +14,14 @@ if ($alert) {
     <script>
         notif({
             //type => error, warning, success
-            msg: "<?php echo $message ?>",//ekrana yazdıracağı metin I Metin işlemi olduğu için tırnak içerisinde yazılması gerekiyor
-            type: "<?php echo $type ?>",//alert tip
-            position: "right",//ekranın neresinde konumlanacağı
-            width: "300",//genişliği
-            opacity: 0.95,//opaklığı
+            msg: "<?php echo $message ?>", //ekrana yazdıracağı metin I Metin işlemi olduğu için tırnak içerisinde yazılması gerekiyor
+            type: "<?php echo $type ?>", //alert tip
+            position: "right", //ekranın neresinde konumlanacağı
+            width: "300", //genişliği
+            opacity: 0.95, //opaklığı
             fade: true //fade solmak demek burada sanıırm kapanıp kapanmayacağını belirliyot
         });
     </script>
-    <?php
-    $this->session->set_userdata("alert",false);//alert'ü silsin diye bunu kullandık
-
-
+<?php
+    $this->session->set_userdata("alert", false); //alert'ü silsin diye bunu kullandık 
 } ?>

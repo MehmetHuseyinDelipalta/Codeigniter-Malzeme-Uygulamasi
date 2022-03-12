@@ -1,11 +1,10 @@
 <!-- BEGIN SIDEBAR -->
 <div class="sidebar-scroll">
     <div id="sidebar" class="nav-collapse collapse">
-
         <!-- BEGIN RESPONSIVE QUICK SEARCH FORM -->
         <div class="navbar-inverse">
             <form class="navbar-search visible-phone">
-                <input type="text" class="search-query" placeholder="Search"/>
+                <input type="text" class="search-query" placeholder="Search" />
             </form>
         </div>
         <!-- END RESPONSIVE QUICK SEARCH FORM -->
@@ -17,7 +16,6 @@
                     <span>Dashboard</span>
                 </a>
             </li>
-
             <li class="sub-menu">
                 <a class="" href="<?php echo base_url("category"); ?>">
                     <i class="icon-tasks"></i>
@@ -30,15 +28,12 @@
                     <span>Tedarikçi</span>
                 </a>
             </li>
-
             <li class="sub-menu">
                 <a class="" href="<?php echo base_url("product"); ?>">
                     <i class="icon-print"></i>
                     <span>Ürünler</span>
                 </a>
             </li>
-
-
             <li class="sub-menu">
                 <a href="javascript:;" class="">
                     <i class="icon-tags"></i>
